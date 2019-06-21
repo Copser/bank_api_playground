@@ -1,5 +1,5 @@
-defmodule BankApiWeb.AccountControler do
-  use BankAPIWeb, :controler
+defmodule BankApiWeb.AccountController do
+  use BankAPIWeb, :controller
 
   alias BankAPI.Accounts
   alias BankAPI.Accounts.Projections.Account

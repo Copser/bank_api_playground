@@ -1,6 +1,8 @@
 defmodule BankAPIWeb.Router do
   use BankAPIWeb, :router
 
+  alias BankAPIWeb.AccountController
+
   pipeline :api do
     plug :accepts, ["json"]
   end

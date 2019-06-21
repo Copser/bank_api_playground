@@ -27,5 +27,4 @@ bank_api-*.tar
 # this depending on your deployment strategy.
 /priv/static/
 .idea/
-.idea/workspace.xml
-.idea/workspace.xml
+bank_api.iml
